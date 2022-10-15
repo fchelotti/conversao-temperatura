@@ -3,7 +3,6 @@ name: CI
 on:
   push:
     branches: [ main ]
-
     
   workflow_dispatch:
         
@@ -18,4 +17,4 @@ jobs:
       uses: actions/setup-node@v3.5.1
       with:
         node-version: 16.16.0
-  
+        
