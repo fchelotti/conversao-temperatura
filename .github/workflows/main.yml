@@ -44,7 +44,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            # fchelotti/aula-conversao-temperatura:v1
             fchelotti/aula-conversao-temperatura:${{github.run_number}}
             fchelotti/aula-conversao-temperatura:latest
             
